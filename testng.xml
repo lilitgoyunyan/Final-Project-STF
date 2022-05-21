@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" >
+    <test name="inputAccountFullNameInvalidTest">
+            <classes>
+                <class name="AccountLoginTest"/>
+            </classes>
+    </test>
+    <test name="filterByBrandTest">
+        <classes>
+            <class name="FilterByBrandTest"/>
+        </classes>
+    </test>
+    <test name="PriceFiltersTest">
+        <classes>
+            <class name="FilterByPriceTest"/>
+        </classes>
+    </test>
+    <test name="searchBarValidTest">
+        <classes>
+            <class name="SearchBarTest"/>
+        </classes>
+    </test>
+    <test name="newYorkStoreTest">
+        <classes>
+            <class name="StoresTest"/>
+        </classes>
+    </test>
+</suite>
