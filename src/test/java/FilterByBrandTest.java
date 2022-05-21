@@ -1,11 +1,12 @@
-import org.junit.Test;
+
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.ProductBrandPage;
 import pages.SneakersPage;
 
 public class FilterByBrandTest extends BaseTest {
 
-
+    //Please run this separately.
     @Test
     public void filterByBrandTest() {
         SneakersPage sneakersPage = new SneakersPage();

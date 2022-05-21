@@ -1,5 +1,6 @@
 import org.junit.Assert;
-import org.junit.Test;
+
+import org.testng.annotations.Test;
 import pages.AccountPage;
 import pages.HomePage;
 
@@ -86,7 +87,7 @@ public class AccountLoginTest extends BaseTest {
         accountPage.clickPasswordSection();
         Assert.assertTrue(accountPage.checkMailText());
     }
-
+    //Please run this test separately
     @Test
     public void inputAccountPasswordInvalidTest() {
         HomePage homePage = new HomePage();

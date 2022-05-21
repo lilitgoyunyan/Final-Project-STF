@@ -1,5 +1,5 @@
 import org.junit.Assert;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SearchClassPage;
 import pages.SearchResultSneakerPage;

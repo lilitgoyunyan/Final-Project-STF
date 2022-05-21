@@ -1,4 +1,4 @@
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.ProductPricePage;
 import pages.SneakersPage;
